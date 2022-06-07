@@ -1,0 +1,53 @@
+@font-face {
+    font-family: garetRegular;
+    src: url(Garet-Book.ttf);
+}
+@font-face {
+    font-family: garetHeavy;
+    src: url(Garet-Heavy.ttf);
+}
+table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    color: #002556;
+    font-family: garetRegular;
+}
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE" 
+}
+#title {
+    text-align: left;
+    font-size: 5em;
+    letter-spacing: 1.2rem;
+    padding: 15px;
+    font-family: garetHeavy;
+}
+#subtitle {
+    text-align: left;
+    position: absolute;
+    font-size: 5em;
+    top: 25px;
+    left: 750px;
+}
+table th {
+    background-color: #002556;
+    color: #ffffff;
+    text-align: left;
+    position: sticky;
+    top: 0px;
+}
+table th, table td {
+    padding: 12px 15px;
+}
+table tr:nth-of-type(even).mainData {
+    background-color: #f3f3f3;
+}
+td.data:hover {
+    background-color: #e2e2e2;
+}
+.name {
+    background-color: #002556;
+    color: white;
+    position: sticky;
+    left: 0px;
+}
