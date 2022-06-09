@@ -27,7 +27,7 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
     position: absolute;
     font-size: 5em;
     top: 25px;
-    left: 750px;
+    left: 765px;
 }
 table th {
     background-color: #002556;
