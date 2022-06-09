@@ -2518,7 +2518,7 @@ for(var i = 0; i < ships.length; i++) {
     tableHTML += "<tr><td class = \"name\">" + ships[i].Name +
                 "</td><td class = \"data\">" + ships[i].Class +
                 "</td><td class = \"data\">" + ships[i].Manufacturer +
-                "</td><td class = \"data\">" + ships[i].Tier +
+                "</td><td class = \"data\" class = \"centered\">" + ships[i].Tier +
                 "</td><td class = \"data\">" + ships[i].Faction +
                 "</td><td class = \"data\">" + ships[i]["Hull Cost"] +
                 "</td><td class = \"data\">" + ships[i]["Standard Cost"] +
