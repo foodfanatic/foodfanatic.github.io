@@ -561,7 +561,7 @@ var ships = [
       "Max Cargo": 95,
       "Outfit Space": 45,
       "Credits/Outfit Space": "8,200",
-      "Weapon Cap.": "",
+      "Weapon Cap.": "0",
       "Credits/Weapon": "",
       "Engine Cap.": 28,
       "Credits/Engine": "13,179",
